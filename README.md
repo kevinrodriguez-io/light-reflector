@@ -7,24 +7,24 @@
 ## Usage
 
 ```
-            LightReflector reflector = new LightReflector();
+LightReflector reflector = new LightReflector();
 
-            Dog bulldog = new Dog(
-                id: 1, 
-                name: "Terry", 
-                race: "Bulldog", 
-                age: 1
-            );
-            // [bulldog] id: 1, name: Terry, race: Bulldog, age: 1
-            RESTDog bulldogClone = new RESTDog(
-                name: "", 
-                race: "", 
-                age: -1
-            );
-            // [bulldogClone] name: , race: , age: -1
+Dog bulldog = new Dog(
+    id: 1, 
+    name: "Terry", 
+    race: "Bulldog", 
+    age: 1
+);
+// [bulldog] id: 1, name: Terry, race: Bulldog, age: 1
+RESTDog bulldogClone = new RESTDog(
+    name: "", 
+    race: "", 
+    age: -1
+);
+// [bulldogClone] name: , race: , age: -1
 
-            reflector.AssignValues(from: bulldog, to: bulldogClone);
+reflector.AssignValues(from: bulldog, to: bulldogClone);
 
-            // [bulldog] id: 1, name: Terry, race: Bulldog, age: 1
-            // [bulldogClone] name: Terry, race: Bulldog, age: 1
+// [bulldog] id: 1, name: Terry, race: Bulldog, age: 1
+// [bulldogClone] name: Terry, race: Bulldog, age: 1
 ```
