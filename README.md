@@ -2,8 +2,29 @@
 
 ## Abstract
 
-- Very light tool for C# using .Net Standard 2.0 to copy values from one object to another regardless of their types
+- Ultra portable and light tool to map values from one object to another regardless of their types.
 
 ## Usage
 
-Usage example pending
+```
+            LightReflector reflector = new LightReflector();
+
+            Dog bulldog = new Dog(
+                id: 1, 
+                name: "Terry", 
+                race: "Bulldog", 
+                age: 1
+            );
+            // [bulldog] id: 1, name: Terry, race: Bulldog, age: 1
+            RESTDog bulldogClone = new RESTDog(
+                name: "", 
+                race: "", 
+                age: -1
+            );
+            // [bulldogClone] name: , race: , age: -1
+
+            reflector.AssignValues(from: bulldog, to: bulldogClone);
+
+            // [bulldog] id: 1, name: Terry, race: Bulldog, age: 1
+            // [bulldogClone] name: Terry, race: Bulldog, age: 1
+```
