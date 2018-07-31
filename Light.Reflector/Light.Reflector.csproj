@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>kevinrodriguez.io</Company>
+    <Authors>_@kevinrodriguez.io</Authors>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/kevinrodriguez-io/light-reflector</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/kevinrodriguez-io/light-reflector</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>Light Reflector</Product>
   </PropertyGroup>
 
 </Project>
