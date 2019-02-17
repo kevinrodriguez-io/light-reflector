@@ -1,3 +1,5 @@
+![Nuget Downloads](https://img.shields.io/nuget/dt/Light.Reflector.svg?style=flat-square)
+
 # Light Reflector
 
 ## Abstract
