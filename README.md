@@ -1,4 +1,4 @@
-![Nuget Downloads](https://img.shields.io/nuget/dt/Light.Reflector.svg?style=flat-square)
+![NuGet Downloads](https://img.shields.io/nuget/dt/Light.Reflector.svg?label=NuGet&style=flat-square)
 
 # Light Reflector
 
