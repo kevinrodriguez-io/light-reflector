@@ -8,7 +8,7 @@
 
 ## Usage
 
-```
+```csharp
 LightReflector reflector = new LightReflector();
 
 Dog bulldog = new Dog(
